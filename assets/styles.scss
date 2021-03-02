@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'FontAwesome5Pro-Solid';
+        src: url('../assets/fonts/FontAwesome5Pro-Solid.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/FontAwesome5Pro-Solid.otf')  format('opentype'),
+        url('../assets/fonts/FontAwesome5Pro-Solid.woff') format('woff'),
+        url('../assets/fonts/FontAwesome5Pro-Solid.ttf')  format('truetype'),
+        url('../assets/fonts/FontAwesome5Pro-Solid.svg#FontAwesome5Pro-Solid') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FontAwesome5Pro-Regular';
+    src: url('../assets/fonts/FontAwesome5Pro-Regular.eot?#iefix') format('embedded-opentype'),
+            url('../assets/fonts/FontAwesome5Pro-Regular.otf')  format('opentype'),
+            url('../assets/fonts/FontAwesome5Pro-Regular.woff') format('woff'),
+            url('../assets/fonts/FontAwesome5Pro-Regular.ttf')  format('truetype'),
+            url('../assets/fonts/FontAwesome5Pro-Regular.svg#FontAwesome5Pro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'omnesregular';
+    src: url('../assets/fonts/Omnes-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Omnes-Regular.otf')  format('opentype'),
+        url('../assets/fonts/Omnes-Regular.woff') format('woff'),
+        url('../assets/fonts/Omnes-Regular.ttf')  format('truetype'),
+        url('../assets/fonts/Omnes-Regular.svg#Omnes-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'omnessemibold';
+    src: url('../assets/fonts/omnes_semibold-webfont.eot');
+    src: url('../assets/fonts/omnes_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/omnes_semibold-webfont.woff') format('woff'),
+        url('../assets/fonts/omnes_semibold-webfont.ttf') format('truetype'),
+        url('../assets/fonts/omnes_semibold-webfont.svg#omnessemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'omneslight';
+    src: url('../assets/fonts/omnes_light-webfont.eot');
+    src: url('../assets/fonts/omnes_light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/omnes_light-webfont.woff') format('woff'),
+        url('../assets/fonts/omnes_light-webfont.ttf') format('truetype'),
+        url('../assets/fonts/omnes_light-webfont.svg#omneslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'omnes-pro';
+    src: url('../assets/fonts/omnes-medium-webfont.eot');
+    src: url('../assets/fonts/omnes-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/omnes-medium-webfont.woff') format('woff'),
+         url('../assets/fonts/omnes-medium-webfont.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Omnes Regular,sans-serif;
+    font-size: 95%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.fondo-adn {
+    background-image: url('../assets/fondo.svg');
+    background-position: left 96%;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-color: #fff;
+    position: relative;
+}
+
+.fondo-externo-pago {
+    /*background-image: url('../assets/is_finalize3.png');
+    background-position: left 96%;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-color: #fff;
+    position: relative;*/
+    background: linear-gradient(168deg,#eff3ff 42%,#e3eaf9 0);
+}
+
+.fondo-cabecera {
+    background-color: #0855c4;
+    color: white;
+}
+
+.omnes-medium {
+    font-family: omnes-pro;
+}
+.text-info {
+    color: #717285!important;
+}
+
+p {
+    font-size: 12px;
+}
+.styled-input {
+    height: 40px;
+    font-size: 20pt;
+}
+.input-name {
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+.v-expansion-panel-header {
+    background-color: #0855c4;
+    color: white;
+    box-shadow: 0px 1px 1px 0px #69c9ec;
+}
+.v-expansion-panel-header:before {
+    background-color: #0855c4!important;
+}
+
+.omnes-semibold {
+    font-family: omnes-pro;
+    font-size: 25px;
+}
+.solicitud-subtitulo {
+    font-family: omnes-pro;
+    font-weight: bold;
+    color: #00adee;
+    font-size: 20px;
+    padding-left: 12px;
+}
+.accordion-text {
+    font-family: omnes-pro;
+    font-weight: normal;
+    color: white;
+    font-size: 1.17em!important;
+    padding-left: 12px;
+    letter-spacing: 1pt;
+}
+.solicitud-confirmar {
+    font-family: omnes-pro;
+    font-size: 20px;
+    color: #717285;
+}
+.solicitud-label {
+    padding-left: 6px;
+    font-family: omnes-pro;
+    font-size: 95%;
+}
+.solicitud-referencia {
+    font-family: omnes-pro;
+    font-size: 90%;
+    text-align: justify;
+}
+.is_wrapperCodSMS
+{
+    border-radius:10px;
+    border:1px solid #DEE2E9;
+    width:100%;
+    position:relative;
+    text-align: center;
+}
+.is_wrapperCodSMS > span
+{
+    font: 20px omnesregular;
+    line-height: 25px;
+    color: #0caced;
+    margin-top: 8px;
+    display: block;
+}
+.is_wrapperCodSMS > span > i
+{
+    font: 20px omnessemibold;
+    line-height: 23px;
+    font-style:normal;
+}
+.is_wrappernumer_CodSMS
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.is_wrappernumer_CodSMS input
+{
+    display: inline-block;
+    width: 45px;
+    font: 25px omnessemibold;
+    line-height: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: center;
+    color: #233b5e;
+    height: initial;
+    border: none;
+    border-bottom: 2px solid #DCE0E7;
+    padding: 0px;
+    border-radius: 0px;
+    padding-bottom: 5px;
+}
+.code_invalid_msg
+{
+    display:none;
+}
+.is_blockPoup
+{
+    width: 70%;
+    height: 75px;
+    border-radius: 7px;
+    border-color: #00C700;
+    border: 4px solid #00C700;
+    background: white;
+    top: 32px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    opacity: 0.85;
+    text-align: center;
+    transition: visibility 0.5s linear 0.7s, opacity 0.7s linear;
+}
+.is_blockPoup span
+{
+    font-family: 20px omnessemibold;
+    line-height: 75px;
+    color: black;
+    position: relative;
+    padding-right: 35px;
+    text-align: center;
+}
+.is_errorCode span
+{
+    font-family: 10px omnessemibold;
+    color: red;
+    text-align: center;
+}
+.is_validateCode
+{
+    font-family: 10px omnessemibold;
+    color: #00C700;
+    text-align: center;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    text-transform: none;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    text-transform: none;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    text-transform: none;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    text-transform: none;
+}
+::placeholder { /* Recent browsers */
+    text-transform: none;
+}

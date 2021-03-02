@@ -1,0 +1,12 @@
+.theme--light.v-data-table thead tr th {
+    color: #3067c8;
+    background-color: #e1eaf8;
+    font-family: Omnes Regular,sans-serif;
+}
+.text-cotiza input[id^=input-] {
+    color: white!important;
+    cursor: default;
+}
+.text-cotiza label[for^=input-] {
+    color: white!important;
+}
